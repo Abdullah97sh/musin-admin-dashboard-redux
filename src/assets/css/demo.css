@@ -40,6 +40,9 @@
 .all-icons input {
   border: 0;
 }
+.desc{
+  width: 700px;
+}
 .all-icons .font-icon-detail {
   text-align: center;
   padding: 45px 0px 30px;

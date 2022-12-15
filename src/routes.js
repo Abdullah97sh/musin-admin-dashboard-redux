@@ -29,14 +29,14 @@ const dashboardRoutes = [
 
   {
     path: "/table",
-    name: "Users & Posts",
+    name: "Users ",
     icon: "nc-icon nc-notes",
     component: TableList,
     layout: "/admin",
   },
   {
     path: "/typography",
-    name: "Comments",
+    name: "Posts & Comments",
     icon: "nc-icon nc-paper-2",
     component: Typography,
     layout: "/admin",
