@@ -31,9 +31,9 @@ function Sidebar({ color, image, routes }) {
     <div className="sidebar" data-image={image} data-color={color}>
       <div
         className="sidebar-background"
-        style={{
-          backgroundImage: "url(" + image + ")"
-        }}
+        // style={{
+        //   backgroundImage: "url(" + image + ")"
+        // }}
       />
       <div className="sidebar-wrapper">
         <div className="logo d-flex align-items-center justify-content-start">
@@ -42,11 +42,11 @@ function Sidebar({ color, image, routes }) {
             className="simple-text logo-mini mx-1"
           >
             <div className="logo-img">
-              <img src={require("assets/img/reactlogo.png")} alt="..." />
+              <img src={require("assets/img/wavemusic.png")} alt="..." />
             </div>
           </a>
           <a className="simple-text" href="http://www.creative-tim.com">
-            Creative Tim
+            Music Wave
           </a>
         </div>
         <Nav>
@@ -54,12 +54,10 @@ function Sidebar({ color, image, routes }) {
             if (!prop.redirect)
               return (
                 <li
-                  className={
-                    prop.upgrade
-                      ? "active active-pro"
-                      : activeRoute(prop.layout + prop.path)
-                  }
-                  key={key}
+                  
+                   
+                   
+                  
                 >
                   <NavLink
                     to={prop.layout + prop.path}
